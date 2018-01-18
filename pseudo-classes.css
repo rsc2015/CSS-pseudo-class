@@ -1,0 +1,14 @@
+li.block {
+    display: inline;
+    list-style-type: none;
+}
+
+span.inline {
+    display: block;
+    border:  1px solid black;
+    margin: 25px;
+}
+article.n-child:nth-child(even) {
+    border: 1px;
+
+}
