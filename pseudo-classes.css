@@ -12,7 +12,7 @@ span.inline {
 }
 
 /*In the article element with the class n-child, add a 1 pixel border around every even numbered section element.*/
-article.n-child:nth-child(even) {
-    border: 1px;
+article.n-child section:nth-of-type(even){
+    border: 1px solid black;
 
 }
